@@ -1,15 +1,17 @@
+import 'package:animated_shoes_display_app/app_bar.dart';
+import 'package:animated_shoes_display_app/bottom_nav.dart';
+import 'package:animated_shoes_display_app/screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:stack_align/appbar.dart';
-import 'package:stack_align/bottomnav.dart';
-import 'package:stack_align/screen.dart';
 
 void main() {
-  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-    statusBarColor: Color(0xFFFFFFFF),
-    statusBarIconBrightness: Brightness.dark,
-    statusBarBrightness: Brightness.light,
-  ));
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarColor: Color(0xFFFFFFFF),
+      statusBarIconBrightness: Brightness.dark,
+      statusBarBrightness: Brightness.light,
+    ),
+  );
   runApp(const MyApp());
 }
 

@@ -36,10 +36,7 @@ class _MyBottomNavState extends State<MyBottomNav> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: double.infinity,
-      height: 80,
       decoration: BoxDecoration(
-        color: Colors.transparent,
         boxShadow: [
           BoxShadow(
             spreadRadius: 0,
@@ -55,13 +52,14 @@ class _MyBottomNavState extends State<MyBottomNav> {
           topRight: Radius.circular(20),
         ),
         child: BottomNavigationBar(
-          unselectedItemColor: const Color(0xFF838383),
-          selectedItemColor: Colors.black,
+          backgroundColor: const Color(0xFF171717), // Warna latar #171717
+          unselectedItemColor: Colors.white, // Icon tidak aktif = putih
+          selectedItemColor: Colors.white, // Icon aktif = putih
           items: _bottomNavBarItems,
           currentIndex: _selectedIndex,
           showSelectedLabels: false,
           showUnselectedLabels: false,
-          iconSize: 34.0,
+          iconSize: 30.0,
           type: BottomNavigationBarType.fixed,
           onTap: _onNavItemTapped,
         ),

@@ -1,4 +1,4 @@
-# stack_align
+# animated_shoes_display_app
 
 A new Flutter project.
 

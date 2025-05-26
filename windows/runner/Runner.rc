@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "stack_align" "\0"
+            VALUE "FileDescription", "animated_shoes_display_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "stack_align" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "stack_align.exe" "\0"
-            VALUE "ProductName", "stack_align" "\0"
+            VALUE "InternalName", "animated_shoes_display_app" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "animated_shoes_display_app.exe" "\0"
+            VALUE "ProductName", "animated_shoes_display_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

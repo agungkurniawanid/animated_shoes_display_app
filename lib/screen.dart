@@ -44,7 +44,7 @@ class _MyScreenState extends State<MyScreen> with TickerProviderStateMixin {
                 child: Text(
                   "NIKE",
                   style: GoogleFonts.poppins(
-                    fontSize: 170,
+                    fontSize: 165,
                     letterSpacing: 10,
                     fontStyle: FontStyle.italic,
                     fontWeight: FontWeight.bold,
@@ -63,9 +63,7 @@ class _MyScreenState extends State<MyScreen> with TickerProviderStateMixin {
               },
               child: const Image(
                 width: 340,
-                image: NetworkImage(
-                  "https://i.imgur.com/kCACt3k.png",
-                ),
+                image: NetworkImage("https://i.imgur.com/kCACt3k.png"),
               ),
             ),
           ],
